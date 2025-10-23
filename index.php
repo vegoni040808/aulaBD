@@ -8,18 +8,7 @@
 </head>
 <body>
     
-    <div class="menu">
-
-    <div>
-        Aula BD
-    </div>
-
-    <div>
-        <a href="#">Cadastrar</a>
-        <a href="#">Consultar</a>
-    </div>
-
-    </div>
+    <?php include "menu.php" ?>
 
     <div class="conteudo">
 
