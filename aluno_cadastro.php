@@ -8,23 +8,25 @@
 </head>
 <body>
 <?php include "menu.php" ?>
-    <h1>Cadastro de Alunos</h1>
+    
 
     <div class="conteudo">
 
     <form action="aluno_cadastro.php" method="post">
-
+    <h2>Cadastro de Alunos</h2>
         <p>
             Informe o nome do aluno: <br>
             <input type="text" name="alunos">
         </p>
 
         <p>
-            Escolha o curso: <br>
-            <input type="radio" name="curso" value="Info"> Técnico em Informática para Internet <br>
-            <input type="radio" name="curso" value="Qui"> Técnico em Química <br>
-            <input type="radio" name="curso" value="LCHS"> Técnico em Línguagems de Ciências Humanas e Sociais <br>
-            <input type="radio" name="curso" value="DS"> Técnico em Desenvolvimento de Sistema <br>
+            Informe a cidade do do aluno: <br>
+            <input type="text" name="cidade">
+        </p>
+
+        <p>
+            Informe o estado: <br>
+            <input type="text" name="estado">
         </p>
 
         

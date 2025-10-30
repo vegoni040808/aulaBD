@@ -9,10 +9,12 @@
     <?php
         if(isset($_REQUEST["Enviar"])){
             $alunos=$_REQUEST['alunos'];
-            $curso=$_REQUEST['curso'];
+            $cidade=$_REQUEST['cidade'];
+            $estado=$_REQUEST['estado'];
 
         echo "<br> Nome do aluno:  $alunos" ;
-        echo "<br> Curso escolhido: $curso ";
+        echo "<br> cidade do do aluno: $cidade ";
+        echo "<br> estado do do aluno: $estado ";
         }
     ?> 
 </body>
