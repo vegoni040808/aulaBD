@@ -16,7 +16,7 @@
     <h2>Cadastro de Alunos</h2>
         <p>
             Informe o nome do aluno: <br>
-            <input type="text" name="alunos">
+            <input type="text" name="aluno">
         </p>
 
         <p>
