@@ -22,6 +22,7 @@ h1
     padding: 10px;
     color: white;
     margin: 10px;
+    font-size: 10px;
 }
 
 .menu > a
@@ -42,4 +43,20 @@ h1
     margin: 10px auto;
     padding: 10px;
     box-shadow: 10px 10px 20px blue;
+}
+input[type="text"], input[type="number"]
+{
+width: 100%;
+box-sizing: border-box;
+padding: 10px;
+font-size: 20px;
+}
+input[type="submit"]
+{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(96,0,0);
+    color: white;
+    border: none;
+    font-size: 20px;
 }
