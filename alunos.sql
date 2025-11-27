@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `aulabd`
 --
+CREATE DATABASE IF NOT EXISTS `aulabd` DEFAULT CHARACTER set utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE `aulabd`;
 
 -- --------------------------------------------------------
 
@@ -36,6 +38,7 @@ CREATE TABLE IF NOT EXISTS `alunos` (
   PRIMARY KEY (`codigo`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 COMMIT;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
