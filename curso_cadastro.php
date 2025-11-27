@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Curso</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <?php include "menu.php" ?>
+
+    <div class="conteudo">
+
     <h1>Cadastro de Curso</h1>
 
     <form action="curso_disciplina.php">
 
         <p>
-            Informe o nome do curso: <br>
-            <input type="text" name="curso">
+            Informe o nome: <br>
+            <input type="text" name="nome">
         </p>
 
         <p>
@@ -21,7 +26,7 @@
         </p>
 
         <p>
-            <input type="submit" value="Cadastrar Curso" name="Enviar">
+            <input type="submit" value="Cadastrar" name="enviar">
         </p>
 
     </form>
